@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-server-resouces
+  config:
+    activate:
+      on-profile: default
+
+alphabets:
+  categoryRefID: 1
+  category: Vowels
+  total: 5
+  values: a, e, i, o, u
+  message: There are 5 Vowels in English
